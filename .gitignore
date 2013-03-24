@@ -1,0 +1,6 @@
+images/*
+*.pyc
+yabbfiles/
+*.html
+*.xhtml
+favicon.ico

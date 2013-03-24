@@ -1,0 +1,204 @@
+/* Stylesheet for my blog - Michel Lavoie 090326 */
+
+/********************** Containers **********************/
+#container
+{
+margin-left: 2%;
+}
+
+#container-head
+{
+width: 98%;
+}
+
+#container-body
+{
+width: 98%;
+}
+
+/********************** Head **********************/
+#head
+{
+background-image: url("images/bg-light.png");
+background-color: #222222;
+clear:left;
+color: #ffffff;
+padding-bottom: 5px;
+text-align: center;
+}
+
+/********************** Left panel **********************/
+#left-panel
+{
+float: left;
+margin-right: 0.5%;
+width: 20.5%;
+}
+
+#menu
+{
+background-color: #dddddd;
+color: #000000;
+margin-top: 5px;
+padding: 5px;
+}
+
+.board
+{
+color: #000000;
+margin-top: 5px;
+}
+
+.board-name
+{
+background-color: #aaaaaa;
+font-size: 80%;
+font-weight: bold;
+padding: 0px 5px;
+}
+
+.board-message
+{
+background-color: #dddddd;
+overflow: auto;
+padding: 5px;
+}
+
+/********************** Main panel **********************/
+#main-panel
+{
+float: left;
+margin-right: 0.5%;
+width: 64.5%;
+}
+
+.blog
+{
+background-image: url("images/bg-light.png");
+background-color: #222222;
+color: #ffffff;
+margin-top: 5px;
+padding-bottom: 5px;
+}
+
+.blog-name
+{
+font-size: 90%;
+font-weight: bold;
+padding: 5px;
+}
+
+.blog-message
+{
+background-image: url("images/bg-dark.png");
+background-color: #111111;
+margin-left: 5px;
+margin-right: 5px;
+overflow: auto;
+padding: 5px;
+}
+
+/********************** Right panel **********************/
+#right-panel
+{
+color: #000000;
+float: left;
+font-weight: bold;
+width: 14%;
+}
+
+#address
+{
+margin-top: 5px;
+}
+
+#address-head
+{
+background-color: #aaaaaa;
+font-size: 80%;
+padding: 0px 5px;
+}
+
+#address-body
+{
+background-color: #dddddd;
+font-size: 80%;
+overflow: auto;
+padding: 5px;
+}
+
+#links
+{
+margin-top: 5px;
+}
+
+#links-head
+{
+background-color: #aaaaaa;
+font-size: 80%;
+padding: 0px 5px;
+}
+
+#links-body
+{
+background-color: #dddddd;
+overflow: auto;
+padding: 5px;
+}
+
+#image
+{
+margin-top: 5px;
+}
+
+#image-head
+{
+background-color: #aaaaaa;
+font-size: 80%;
+padding: 0px 5px;
+}
+
+.image-body
+{
+background-color: #dddddd;
+overflow: hidden;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 5px;
+}
+
+/********************** Misc **********************/
+a
+{
+color: #000000;
+font-size: 90%;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #4444ff;
+}
+
+a.white
+{
+color: #ffffff;
+}
+
+a.white:hover
+{
+color: #4444ff;
+}
+
+body
+{
+background-color: #000000;
+color: #ffffff;
+}
+
+img.borderless
+{
+border: none;
+}
+
